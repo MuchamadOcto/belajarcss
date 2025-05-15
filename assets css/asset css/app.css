@@ -1,4 +1,4 @@
-a {
+a.try {
     color: blueviolet;
     font-size: x-large;
     background-color: coral;
@@ -7,4 +7,28 @@ a {
 button {
     color: darkgreen;
     background-color: darkkhaki;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline overline solid blueviolet;
+}
+
+hr {
+    background-color: lightpink;
+    height: 2px;
+    border: none;
+}
+
+p {
+    text-align: justify;
+    line-height: 1.5;
+}
+
+h2 {
+    text-align: start;
+}
+
+a {
+    text-decoration: none;
 }
