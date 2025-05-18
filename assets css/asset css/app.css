@@ -12,7 +12,8 @@ button {
 h1 {
     text-align: center;
     text-decoration: underline overline solid blueviolet;
-}
+    font-size: 150%;
+}   
 
 hr {
     background-color: lightpink;
@@ -27,6 +28,7 @@ p {
 
 h2 {
     text-align: start;
+    font-size: 50px;
 }
 
 a {
