@@ -59,8 +59,17 @@ span {
     color: darkorchid;
 }
 
-/* menggunakan atribut id untuk  element selector*/
+/* menggunakan atribut id untuk  element selector harus menggunakan '#'*/
 #list {
     color: black;
     background-image: linear-gradient(to bottom right, red, yellow);
+}
+
+/* selector menggunakan atribut class */
+.mark {
+    background-color: aquamarine;
+}
+
+#list2 {
+    color: peru;
 }
