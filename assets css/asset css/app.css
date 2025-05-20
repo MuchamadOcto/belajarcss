@@ -18,6 +18,7 @@ h1 {
     text-align: center;
     text-decoration: underline overline solid blueviolet;
     font-size: 150%;
+    text-shadow: 1px 1px grey;
 }
 
 hr {
@@ -45,4 +46,21 @@ h3,h4 {
     text-align: start;
    color: crimson ;
    background-color: wheat;
+}
+
+li{
+    color: blue;
+    text-transform: uppercase;
+    
+    
+}
+
+span {
+    color: darkorchid;
+}
+
+/* menggunakan atribut id untuk  element selector*/
+#list {
+    color: black;
+    background-image: linear-gradient(to bottom right, red, yellow);
 }
