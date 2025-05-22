@@ -48,9 +48,9 @@ h3,h4 {
    background-color: wheat;
 }
 
-li{
+li {
     color: blue;
-    text-transform: uppercase;
+    text-transform: none;
     
     
 }
