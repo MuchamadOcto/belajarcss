@@ -27,9 +27,20 @@ hr {
     border: none;
 }
 
+/* descendant selector */
+section p {
+    text-align: justify;
+    line-height: 1.5;
+    color: chocolate;
+}
+/* descendant selector akan mengeksekusi pembungkus selection yang ada embungkus p nya */
+
+
+
 p {
     text-align: justify;
     line-height: 1.5;
+    color: blueviolet;
 }
 
 h2 {
@@ -44,15 +55,13 @@ a {
 
 h3,h4 {
     text-align: start;
-   color: crimson ;
-   background-color: wheat;
+    color: crimson ;
+    background-color: wheat;
 }
 
 li {
     color: blue;
-    text-transform: none;
-    
-    
+    text-transform: none;    
 }
 
 span {
