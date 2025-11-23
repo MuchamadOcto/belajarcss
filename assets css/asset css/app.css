@@ -35,9 +35,15 @@ section p {
 }
 /* descendant selector akan mengeksekusi pembungkus selection yang ada embungkus p nya */
 
-
-
 p {
+    text-align: justify;
+    line-height: 1.5;
+    color: blueviolet;
+}
+
+/*direct descendant*/
+
+.canda > p {
     text-align: justify;
     line-height: 1.5;
     color: blueviolet;
@@ -68,6 +74,7 @@ span {
     color: darkorchid;
 }
 
+ 
 /* menggunakan atribut id untuk  element selector harus menggunakan '#'*/
 #list {
     color: black;
