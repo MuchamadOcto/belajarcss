@@ -38,7 +38,7 @@ section p {
 p {
     text-align: justify;
     line-height: 1.5;
-    color: blueviolet;
+    color: red;
 }
 
 /*direct descendant*/
